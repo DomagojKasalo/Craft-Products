@@ -1,0 +1,120 @@
+body {
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+form input, form button, form textarea, form select {
+  width: 95%;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: block;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #4caf50;
+  border: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 4px #0000001a;
+}
+
+.error {
+  color: red;
+}
+
+.manufacturer-details .manufacturer-title, .manufacturer-list h2 {
+  margin-bottom: 15px;
+}
+
+.manufacturer-info p, .manufacturer-details .actions, .manufacturer-list .list-item {
+  margin-bottom: 10px;
+}
+
+.manufacturer-logo {
+  max-width: 100px;
+  margin-top: 10px;
+}
+
+.actions .button {
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.actions .button.button-danger {
+  background-color: #dc3545;
+}
+
+.actions .button.add-button {
+  background-color: #28a745;
+}
+
+.actions .button.detail-button {
+  background-color: #17a2b8;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+}
+
+.list-item {
+  background: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
